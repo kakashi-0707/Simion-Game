@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Simion Game</title>
+    <link rel="stylesheet" href="HomeStyle.css">
+</head>
+<body>
+    <section class="headingname">
+        <header><h1>SIMON GAME</h1></header>
+    </section>
+    
+
+    <header>
+        <h1 id="level">level 1</h1>
+        <h1 id="score">highest : 0</h1>
+    </header>
+    <section class="boxes">
+        <button id="box_green" class="box">GREEN</button>
+        <button id="box_yellow" class="box">YELLOW</button>
+        <button id="box_red" class="box">RED</button>
+        <button id="box_blue" class="box">BLUE</button>
+    </section>
+    <button id="start" class="start disable">Start</button>
+
+    <section id="modal_overlay" class="hide">
+        <div class="modal_content">
+            <h1 id="modal_message">You Lose</h1>
+            <button id="modal_button">try again</button>
+        </div>
+    </section>
+    <script src="HomeScript.js"></script>
+</body>
+</html>
